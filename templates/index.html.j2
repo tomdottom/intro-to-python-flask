@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Flask Templating</title>
+  </head>
+  <body>
+    <div style="margin: 25px;">
+      <h1>{{ a_single_var }}</h1>
+      <ul>
+      {% for name in a_list %}
+        <li>{{ name }}</li>
+      {% endfor %}
+      </ul>
+      {% if a_dict %}
+      <h1>Top Tip</h1>
+      <div>
+        We should all read more books by "{{ a_dict.first }} {{ a_dict.last }}"
+      </div>
+      {% endif %}
+    </div>
+  </body>
+</html>
