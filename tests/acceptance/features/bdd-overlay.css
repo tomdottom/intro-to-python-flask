@@ -1,0 +1,24 @@
+#bdd-overlay {
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    opacity: 0.5;
+    pointer-events: none;
+    padding: 10px;
+    font-size: 25pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: gray;
+}
+
+.bdd-in-progress {
+    color: gray;
+}
+
+.bdd-ok {
+    color: green;
+}
+
+.bdd-failed {
+    color: red;
+}
