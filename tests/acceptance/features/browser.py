@@ -4,6 +4,7 @@ import os
 from jinja2 import Template
 import selenium.webdriver
 
+
 __file__dir__ = os.path.dirname(os.path.abspath(__file__))
 with open(__file__dir__ + '/bdd-overlay.css') as fh:
     overlay_css = fh.read().replace('\n', ' ')
@@ -96,6 +97,7 @@ class BDDMessage(object):
 
 class Driver(selenium.webdriver.Chrome):
 
+    KEYS = selenium.webdriver.common.keys.Keys
     BDD_MESSAGES_CACHE = None
 
     def __init__(self, *args, **kwargs):
