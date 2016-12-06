@@ -7,22 +7,12 @@ app = Flask(__name__)
 
 
 @app.route("/")
-@app.route("/index")
 def index():
-    return "Hello Wilmington Web Devs!"
-
-
-@app.route("/hello/<name>")
-def hello(name):
-    return "Hello {}!".format(name)
-
-
-@app.route("/tada/<name>")
-def tada(name):
-    name = name[0].upper() + name[1:]
     return render_template(
-        "tada.html",
-        name=name
+        'index.html',
+        a_single_var='All hail the organisers!',
+        a_list=['Tom', 'Matt'],
+        a_dict={'first': 'Uncle', 'last': 'Bob'}
     )
 
 
