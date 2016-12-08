@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     return render_template(
-        'index.html',
+        'index.html.j2',
         a_single_var='All hail the organisers!',
         a_list=['Tom', 'Matt'],
         a_dict={'first': 'Uncle', 'last': 'Bob'}
