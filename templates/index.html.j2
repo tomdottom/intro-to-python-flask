@@ -7,8 +7,8 @@
     <div style="margin: 25px;">
       <h1>{{ a_single_var }}</h1>
       <ul>
-      {% for name in a_list %}
-        <li>{{ name }}</li>
+      {% for member in a_list %}
+        <li>{{ member.first_name }}</li>
       {% endfor %}
       </ul>
       {% if a_dict %}
