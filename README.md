@@ -21,9 +21,6 @@ virutalenv .venv
 source .venc/bin/activate
 
 # Install dependencies
-pip install Flask
-
-# or alternatively
 pip install -r requirements.txt
 ```
 
