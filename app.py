@@ -34,7 +34,7 @@ def index():
     members = Member.query.all()
     return render_template(
         'index.html.j2',
-        a_single_var='All hail the organisers!',
+        a_single_var='A big hello from the organisers!',
         a_list=members,
         a_dict={'first': 'Uncle', 'last': 'Bob'}
     )
