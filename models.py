@@ -2,6 +2,10 @@ class NoSuchUserError(Exception):
     pass
 
 
+class UserExistsError(Exception):
+    pass
+
+
 class Members(object):
 
     def __init__(self):
@@ -19,10 +23,8 @@ class Members(object):
 
     def create(self, data):
         if self._member_exists(data['name']):
-            api.abort(
-                409,
-                'Member with name \'{}\' already exists'.format(data['name'])
-            )
+            raise UserExistsError(
+                'Member with name \'{}\' already exists'.format(data['name']))
 
         new_id = len(self._members)
         self._members.append({
