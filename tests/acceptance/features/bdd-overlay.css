@@ -22,19 +22,3 @@
 .bdd-failed {
     color: red;
 }
-
-.focus-highlight {
-    pointer-events: none;
-
-    position: fixed;
-    width: 0px;
-    height: 0px;
-    top: 0px;
-    left: 0px;
-
-    background-color: rgba(0, 200, 100, 0.25);
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAKyklEQ…gcSoDEoQRIHEqAxKEESBxKgMShBEgcSoDEoQRIHEqAxPE/XhQuPx1cjJQAAAAASUVORK5CYII=);
-    background-repeat: no-repeat;
-    background-position: top 0px right 10px;
-    background-size: 10%;
-}
