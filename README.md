@@ -1,4 +1,4 @@
-# 1. Routes and Templates
+# 1. Jinja Templating
 
 ## Requirements
 
