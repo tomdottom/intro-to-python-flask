@@ -1,4 +1,4 @@
-# 1. Routes and Templates
+# 5. Testing and Debugging
 
 ## Requirements
 
@@ -21,16 +21,22 @@ virutalenv .venv
 source .venc/bin/activate
 
 # Install dependencies
-pip install Flask
-
-# or alternatively
 pip install -r requirements.txt
+pip install -r test_requirements.txt
 ```
 
-## Running
+## Running Tests
+Simply run:
+```
+nosetests
+```
+
+## Running App
 
 ```
 python app.py
 ```
 
-In a browser goto `http://localhost:5000`
+In a browser goto any of
+- `http://localhost:5000/`
+- `http://localhost:5000/error/`
