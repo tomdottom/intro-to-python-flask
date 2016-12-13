@@ -1,4 +1,4 @@
-# 1. Jinja Templating
+# 3. Jinja Templating
 
 ## Requirements
 
