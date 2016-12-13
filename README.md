@@ -1,4 +1,4 @@
-# 1. Routes and Templates
+# 1. Static files & Storage Engines
 
 ## Requirements
 
@@ -21,10 +21,10 @@ virutalenv .venv
 source .venc/bin/activate
 
 # Install dependencies
-pip install Flask
-
-# or alternatively
 pip install -r requirements.txt
+
+# Initial and empty DB
+python init_db.py  # Ignore the warnings about feature deprecration if it appears
 ```
 
 ## Running
