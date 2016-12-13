@@ -1,4 +1,8 @@
-# Intro to Pythons Flask Microframework
+# A Quick Intro to Pythons Flask Microframework
+
+## Slides
+
+<a href="https://rawgit.com/tomdottom/intro-to-python-flask/master/slides/a-quick-intro-to-pythons-flask.html#/" target="_blank">A Quick Intro to Pythons Flask Microframework</a>
 
 # Examples
 
