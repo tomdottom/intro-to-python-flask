@@ -16,9 +16,9 @@ pip install virutalenv
 
 ```
 # Create a virutal environment for the project
-virutalenv .bm
+virutalenv .venv
 # Activate the virutal environment
-source .bm/bin/activate
+source .venv/bin/activate
 
 # Install dependencies
 pip install flask
